@@ -1,0 +1,12 @@
+const course1 = {
+    name: "ARTG 80",
+    time: "8:00am",
+    building: "Henry",
+    room: 204,
+    getTime() {
+        return this.name + " at " + this.time 
+    },
+    getLocation() {
+        /* code */
+    }
+}
